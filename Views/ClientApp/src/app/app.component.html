@@ -1,0 +1,8 @@
+<main class="app-main">
+  <header class="app-header">
+    <h1>Список пользователей</h1>
+  </header>
+  
+  <button (click)="loadUsers()">Загрузить пользователей</button>
+<app-user-list #usersList [users]="Users"></app-user-list>
+</main>
